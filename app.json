@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Practice-App",
+    "name": "My Goals",
     "slug": "Practice-App",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,13 +17,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.siddharth_25.PracticeApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "12dc7c33-1625-4793-8ba3-e7e692136e04"
+      }
     }
   }
 }
